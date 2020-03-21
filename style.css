@@ -1,0 +1,294 @@
+/* Global style */
+body {
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 1.1rem;
+    line-height: 2.6rem;
+}
+
+a {
+    color: #8b0000;
+}
+
+a:hover {
+    color: #777777;
+}
+
+/* Carousel background */
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner-background {
+    position: fixed;
+    z-index: -1;
+}
+
+/* Navbar */
+.navbar {
+    background: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    #navbarContent {
+    padding-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+nav a {
+    border-bottom: 3px solid transparent; 
+}
+
+nav a:hover{
+    border-bottom: 3px solid #8b0000;
+}
+
+/* Top */
+.top {
+    padding-bottom: 5px;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #383838;
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: "Oswald", "Arial", sans-serif;
+    padding: 1.4rem;
+}
+
+.dark-red {
+    color: #8b0000;
+}
+
+/* Carousel */
+.banner {
+    height: 25rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Oswald", "Arial", sans-serif;
+    border: 2px solid #ffffff;
+    padding: 1rem;
+    position: fixed;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+        border: 3px solid #ffffff;
+    }
+}
+
+/* About us */
+#about-us {
+    text-align: center;
+    background-color: #e8e8e8;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #8b0000;
+    padding: 2.2rem;
+}
+
+p {
+    padding: 0 2rem 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    p {
+    padding: 0 15rem 1rem;
+    }
+}
+
+.additional-paragraph {
+    display: none;
+}
+
+#about-us .read-more-less-btn {
+    cursor: pointer;
+    background-color: #8b0000;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 1.2rem 0;
+}
+
+/* Promotions */
+#promotions {
+    background-color: #e8e8e8;
+    padding-bottom: 5rem;
+}
+
+.promotions {
+    background: #ffffff;
+    padding: 0 3rem 2rem;
+}
+
+.dark-grey {
+    color: #383838;
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+/* Menu */
+#our-offer {
+    margin: 7rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    #our-offer {
+        margin: 12rem 0;
+    }    
+}
+
+.our-offer {
+    background: #ffffff;
+    padding: 1rem 3rem;
+}
+
+h4 {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #8b0000;
+    background-color: #f5f5f5;
+    padding: .5rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-family: "Oswald", "Arial", sans-serif;
+    color: #8b0000;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Gallery*/
+#gallery {
+    background: #f5f5f5;
+    padding-bottom: 2rem;
+} 
+
+a img {
+    transition: 1s;
+    border: none;
+    padding: 1rem;
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
+
+/* Location */
+#location {
+    background: #ffffff;
+}
+
+.center-position {
+    display: flex;
+    justify-content: center;
+}
+
+/*Go up*/
+.go-up {
+    background-color: #ffffff;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.go-up i {
+    font-size: 55px;
+    color: #8b0000;
+    cursor: pointer;
+}
+
+.go-up i:hover {
+    color: #a9a9a9;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #383838;
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+h6:hover {
+    color: #a9a9a9;    
+}
+
+/* Footer */
+.site-footer {
+    padding: 5rem 1.5rem 4rem;
+    background-color: #777777;
+}
+
+@media screen and (min-width: 1400px) {
+    .site-footer {
+        padding: 5rem 10rem 4rem;
+    }
+}
+
+li a {
+    color: #ffffff;
+    margin-left: 1rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+li a:hover {
+    color: #383838;
+    border-bottom: none;
+}
+
+.footer-col li {
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #383838;
+}
+
+.footer-col li:last-child {
+    border-bottom: none;
+}
+
+.footer-col li:first-child {
+    padding-top: 0;
+}
+
+.icon-dark-red {
+    color: #8b0000;
+    padding-right: 1rem;
+}
+
+/* Copyright */
+.copyright {
+    font-size: .9rem;
+    color: #a9a9a9;
+    padding: 1.5rem 0;
+    background-color: #383838;
+}
+
+.copyright-designed {
+    font-size: .7rem;
+}
+
