@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Omega Sobików</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400|Oswald:300,400,700&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/lightbox.css" rel="stylesheet">
+    <link href="vendor/reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Carousel background-->
+    <section id="background" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner-background">
+            <div class="carousel-item active">
+                <img class="background" src="images/background1.jpeg" alt="pizza1">
+            </div>
+            <div class="carousel-item">
+                <img class="background" src="images/background2.jpeg" alt="pizza2">
+            </div>
+            <div class="carousel-item">
+                <img class="background" src="images/background3.jpeg" alt="pizza3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar bg-white navbar-light navbar-expand-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <div class="navbar-nav">
+                <a href="#navbarContent" class="nav-item nav-link active">Strona główna</a>
+                <a href="#about-us" class="nav-item nav-link">O nas</a>
+                <a href="#our-offer" class="nav-item nav-link">Nasza oferta</a>
+                <a href="#promotions" class="nav-item nav-link">Promocje</a>
+                <a href="#gallery" class="nav-item nav-link">Galeria</a>
+                <a href="#location" class="nav-item nav-link">Lokalizacja</a>
+                <a href="#contact" class="nav-item nav-link">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Top -->
+    <div class="top bg-white">
+        <h1 class="text-uppercase font-weight-bold">Pizza<span class="dark-red"> Omega </span>Sobików</h1>
+        <p class="text-center font-weight-bold dark-grey">Nasza pizza składa się jedynie z naturalnych składników</p>
+    </div>
+
+
+    <!-- Wellcome-->
+    <div class="wellcome">
+        <span class="wellcome-style"> Witamy w Pizzerii Omega<br>
+            <a href="tel:227178503">
+                <h3><i class="fas fa-phone-square phone-icon"></i> 22 717 85 03</h3>
+            </a>
+        </span>
+    </div>
+
+    <!-- About us -->
+    <section id="about-us">
+        <h2>Trochę o nas:</h2>
+        <p>
+            Pizzeria Omega jest firmą rodzinną założoną w 1998 r. Od tego czasu zrobiliśmy dla Was tysiące sztuk pizzy.
+            Przez pierwszy rok nasz lokal mieścił się przy ulicy Dominikańskiej 28 obecnie znajduje się tam sklep
+            spożywczy. Aktualnie mamy do dyspozycji duży lokal w Sobikowie, w którym możemy przyjąć większą liczbę
+            gości.
+        </p>
+        <p class="additional-paragraph">
+            Od rozpoczęcia naszej działalności rynek spożywczy, w tym również produkcja pizzy, uległy znacznej zmianie.
+            Niezmienny jest jednak nasz priorytet, czyli pewność, iż nasze ciasto składa się jedynie z naturalnych
+            składników czyli mąki, drożdży i wody. Natomiast pozostałe składniki służące do produkcji pizzy, takie jak
+            warzywa, mięso, sery pochodzą z wiodących na rynku spożywczym polskich firm. Od ponad 20 lat Nasza pizza na
+            rynku lokalnym cieszy się największym powodzeniem. Ostatnio mając na względzie sugestie naszych klientów,
+            rozszerzyliśmy asortyment wprowadzając do menu robione przez Nas spagetti oraz różnego rodzaju sałatki,
+            mając nadzieję, że będą rozkoszować smakiem w takim samym stopniu jak nasza pizza. Serdecznie zapraszamy do
+            naszego lokalu oraz ogródka otwartego w sezonie letnim.
+        </p>
+        <button class="read-more-less-btn">Czytaj więcej</button>
+    </section>
+
+    <!-- Promotions -->
+    <section id="promotions">
+        <div class="container px-md-5 py-md-5 bg-white">
+            <div class="row">
+                <div class="col">
+                    <h2>Promocje:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="font-weight-bold dark-grey">
+                        Przy zamówieniu pizzy w rozmiarach: duża lub średnia durga
+                        pizza 50% taniej!
+                    </h2>
+                    <img src="images/pepperoni.jpg" alt="pepperoni" class="img-fluid pr-md-3">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-12 order-md-2">
+                            <h2 class="font-weight-bold dark-grey">
+                                Albo do każdej pizzy na życzenie klienta sos gratis. A dodatkowo dostawa do 5km gratis!
+                            </h2>
+                        </div>
+                        <div class="col-12 order-md-1">
+                            <img src="images/people.jpg" alt="people" class="img-fluid pl-md-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="our-offer">
+        <div class="container px-md-5 py-3 bg-white">
+            <div class="row">
+                <div class="col">
+                    <h2>Nasze menu:</h2>
+                    <table class="table table-responsive pizza-table">
+                        <h3>PIZZA</h3>
+                        <tbody>
+                            <tr class="text-align-right">
+                                <th colspan="3"></th>
+                                <th class="text-align-right">25cm</th>
+                                <th class="text-align-right">31cm</th>
+                                <th class="text-align-right">42cm</th>
+                            </tr>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Margarita</h4>
+                                </th>
+                                <th class="italic">Sos pomidorowy, ser, oregano</th>
+                                <th>16,50</th>
+                                <th>21,00</th>
+                                <th>29,50</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Becon</h4>
+                                </th>
+                                <th class="italic">Bekon, cebula, ser</th>
+                                <th>19,50</th>
+                                <th>25,50</th>
+                                <th>33,50</th>
+                            </tr>
+                            <tr>
+                                <th>03.</th>
+                                <th>
+                                    <h4>Chicago</h4>
+                                </th>
+                                <th class="italic">Cebula, kiełbasa, ser</th>
+                                <th>19,50</th>
+                                <th>25,50</th>
+                                <th>33,50</th>
+                            </tr>
+                            <tr>
+                                <th>04.</th>
+                                <th>
+                                    <h4>Hawai</h4>
+                                </th>
+                                <th class="italic">Szynka, ananas, ser</th>
+                                <th>20,70</th>
+                                <th>25,70</th>
+                                <th>34,50</th>
+                            </tr>
+                            <tr>
+                                <th>05.</th>
+                                <th>
+                                    <h4>Tropikalna</h4>
+                                </th>
+                                <th class="italic">Sos pomidorowy, szynka, ananasy, brzoskwinie, ser</th>
+                                <th>21,70</th>
+                                <th>26,70</th>
+                                <th>35,50</th>
+                            </tr>
+                            <tr>
+                                <th>06.</th>
+                                <th>
+                                    <h4>Vesuvio</h4>
+                                </th>
+                                <th class="italic">Szynka, ser</th>
+                                <th>18,50</th>
+                                <th>24,50</th>
+                                <th>31,50</th>
+                            </tr>
+                            <tr>
+                                <th>07.</th>
+                                <th>
+                                    <h4>Venezia</h4>
+                                </th>
+                                <th class="italic">Salami, papryka, ser</th>
+                                <th>20,00</th>
+                                <th>25,70</th>
+                                <th>34,50</th>
+                            </tr>
+                            <tr>
+                                <th>08.</th>
+                                <th>
+                                    <h4>Primawera</h4>
+                                </th>
+                                <th class="italic">Bekon, salami, cebula, ser</th>
+                                <th>23,50</th>
+                                <th>29,70</th>
+                                <th>36,70</th>
+                            </tr>
+                            <tr>
+                                <th>09.</th>
+                                <th>
+                                    <h4>Pepperoni</h4>
+                                </th>
+                                <th class="italic">Pepperoni, chilli, papryka, ser</th>
+                                <th>23,50</th>
+                                <th>29,70</th>
+                                <th>36,70</th>
+                            </tr>
+                            <tr>
+                                <th>10.</th>
+                                <th>
+                                    <h4>Mozzarella</h4>
+                                </th>
+                                <th class="italic">Potrójny ser, sos pomidorowy</th>
+                                <th>24,70</th>
+                                <th>31,20</th>
+                                <th>38,50</th>
+                            </tr>
+                            <tr>
+                                <th>11.</th>
+                                <th>
+                                    <h4>Capriciosa</h4>
+                                </th>
+                                <th class="italic">Szynka, pieczarki, ser</th>
+                                <th>20,00</th>
+                                <th>25,50</th>
+                                <th>34,50</th>
+                            </tr>
+                            <tr>
+                                <th>12.</th>
+                                <th>
+                                    <h4>Wegetariańska</h4>
+                                </th>
+                                <th class="italic">Kukurydza, pieczarki, papryka, cebula, czosnek, pomidor, ogórek
+                                </th>
+                                <th>23,50</th>
+                                <th>29,70</th>
+                                <th>38,50</th>
+                            </tr>
+                            <tr>
+                                <th>13.</th>
+                                <th>
+                                    <h4>Strong</h4>
+                                </th>
+                                <th class="italic">Papryka, grzyby, pomidor, cebula, czosnek, tabasco, ser</th>
+                                <th>24,20</th>
+                                <th>30,20</th>
+                                <th>38,50</th>
+                            </tr>
+                            <tr>
+                                <th>14.</th>
+                                <th>
+                                    <h4>Beżowiak</h4>
+                                </th>
+                                <th class="italic">Salami, bekon, cebula, papryka, ananas, oliwki, ser</th>
+                                <th>25,20</th>
+                                <th>32,20</th>
+                                <th>40,50</th>
+                            </tr>
+                            <tr>
+                                <th>15.</th>
+                                <th>
+                                    <h4>Extra fish</h4>
+                                </th>
+                                <th class="italic">Tuńczyk, cebula, pieczarki, czosnek, ser</th>
+                                <th>21,00</th>
+                                <th>27,50</th>
+                                <th>35,50</th>
+                            </tr>
+                            <tr>
+                                <th>16.</th>
+                                <th>
+                                    <h4>Hot-chilli</h4>
+                                </th>
+                                <th class="italic">Salami, chilli, cebula, papryka, tabasco, ser</th>
+                                <th>23,50</th>
+                                <th>29,50</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>17.</th>
+                                <th>
+                                    <h4>Własna</h4>
+                                </th>
+                                <th class="italic">6 dowolnie wybranych składników, ser</th>
+                                <th>27,20</th>
+                                <th>32,50</th>
+                                <th>41,50</th>
+                            </tr>
+                            <tr>
+                                <th>18.</th>
+                                <th>
+                                    <h4>La bella</h4>
+                                </th>
+                                <th class="italic">Szynka, kiełbasa, papryka, oliwki, ser</th>
+                                <th>24,50</th>
+                                <th>29,50</th>
+                                <th>35,50</th>
+                            </tr>
+                            <tr>
+                                <th>19.</th>
+                                <th>
+                                    <h4>Hamburger</h4>
+                                </th>
+                                <th class="italic">Mięso, szynka, bekon, cebula, ser</th>
+                                <th>24,50</th>
+                                <th>30,50</th>
+                                <th>38,50</th>
+                            </tr>
+                            <tr>
+                                <th>20.</th>
+                                <th>
+                                    <h4>Omega</h4>
+                                </th>
+                                <th class="italic">Szynka, bekon, kiełbasa, cebula, salami, papryka, ser</th>
+                                <th>29,50</th>
+                                <th>32,50</th>
+                                <th>42,50</th>
+                            </tr>
+                            <tr>
+                                <th>21.</th>
+                                <th>
+                                    <h4>Meksykańska</h4>
+                                </th>
+                                <th class="italic">Czerwona fasola, papryka, mięso, cebula, chilli, tabasco, boczek,
+                                    ser
+                                </th>
+                                <th>27,70</th>
+                                <th>30,70</th>
+                                <th>40,70</th>
+                            </tr>
+                            <tr>
+                                <th>22.</th>
+                                <th>
+                                    <h4>Wiejska</h4>
+                                </th>
+                                <th class="italic">Boczek, cebula, mięso, ser</th>
+                                <th>24,50</th>
+                                <th>30,50</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>23.</th>
+                                <th>
+                                    <h4>Frutti di mare</h4>
+                                </th>
+                                <th class="italic">Małże, tuńczyk, krewetki, ser</th>
+                                <th>21,00</th>
+                                <th>29,50</th>
+                                <th>35,50</th>
+                            </tr>
+                            <tr>
+                                <th>24.</th>
+                                <th>
+                                    <h4>Pisklak</h4>
+                                </th>
+                                <th class="italic">Kurczak, pieczarki, cebula, ser</th>
+                                <th>21,50</th>
+                                <th>27,70</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>25.</th>
+                                <th>
+                                    <h4>Kebab z kurczaka</h4>
+                                </th>
+                                <th class="italic">Kebab, cebula, papryka, ser</th>
+                                <th>22,50</th>
+                                <th>27,70</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>26.</th>
+                                <th>
+                                    <h4>Amerykańska</h4>
+                                </th>
+                                <th class="italic">Podwójna wołowina, podwójny becon, ser</th>
+                                <th>26,50</th>
+                                <th>33,50</th>
+                                <th>41,50</th>
+                            </tr>
+                            <tr>
+                                <th>27.</th>
+                                <th>
+                                    <h4>Flambee</h4>
+                                </th>
+                                <th class="italic">Sos śmietankowy, cebula, bekon, ser</th>
+                                <th>19,50</th>
+                                <th>25,50</th>
+                                <th>33,50</th>
+                            </tr>
+                            <tr>
+                                <th>27.</th>
+                                <th>
+                                    <h4>Cztery sery</h4>
+                                </th>
+                                <th class="italic">Sos, ser: mozarella, gouda, feta, górski</th>
+                                <th>24,70</th>
+                                <th>29,50</th>
+                                <th>38,50</th>
+                            </tr>
+                            <tr>
+                                <th>29.</th>
+                                <th>
+                                    <h4>Quatro</h4>
+                                </th>
+                                <th class="italic">Szynka, pieczarki, salami, cebula, ser</th>
+                                <th>23,70</th>
+                                <th>29,20</th>
+                                <th>35,50</th>
+                            </tr>
+                            <tr>
+                                <th>30.</th>
+                                <th>
+                                    <h4>Tomek i przyjaciele</h4>
+                                </th>
+                                <th class="italic">Salami, pieczarki, pomidor, cebula, oliwki, kukurydza, ser</th>
+                                <th>27,50</th>
+                                <th>29,50</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>31.</th>
+                                <th>
+                                    <h4>Europejska</h4>
+                                </th>
+                                <th class="italic">Szynka, pieczarki, wołowina, ser</th>
+                                <th>23,90</th>
+                                <th>29,90</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>32.</th>
+                                <th>
+                                    <h4>Zbójnicka</h4>
+                                </th>
+                                <th class="italic">Papryka, kurczak, ser górski, cebula, ser</th>
+                                <th>27,50</th>
+                                <th>32,50</th>
+                                <th>39,50</th>
+                            </tr>
+                            <tr>
+                                <th>33.</th>
+                                <th>
+                                    <h4>Siciliana</h4>
+                                </th>
+                                <th class="italic">Szynka, tuńczyk, kukurydza, papryka</th>
+                                <th>20,90</th>
+                                <th>27,90</th>
+                                <th>36,50</th>
+                            </tr>
+                            <tr>
+                                <th>34.</th>
+                                <th>
+                                    <h4>Góralska</h4>
+                                </th>
+                                <th class="italic">Ser, oscypek, żurawina, boczek</th>
+                                <th>25,50</th>
+                                <th>30,70</th>
+                                <th>38,70</th>
+                            </tr>
+                            <tr>
+                                <th>35.</th>
+                                <th>
+                                    <h4>Parmeńska</h4>
+                                </th>
+                                <th class="italic">Szynka parmeńska, pomidor koktajlowy, rukola</th>
+                                <th>26,50</th>
+                                <th>30,70</th>
+                                <th>38,70</th>
+                            </tr>
+                            <tr>
+                                <th>36.</th>
+                                <th>
+                                    <h4>Myśliwska</h4>
+                                </th>
+                                <th class="italic">Ser, sos pomidorowy, kiełbasa z dzika, ogórek kiszony, cebula,
+                                    czosnek</th>
+                                <th>31,50</th>
+                                <th>36,50</th>
+                                <th>42,50</th>
+                            </tr>
+                            <tr>
+                                <th>37.</th>
+                                <th>
+                                    <h4>Carbonara</h4>
+                                </th>
+                                <th class="italic">Ser, sos śmietankowy, boczek, cebula, pieprz, jajka</th>
+                                <th>27,90</th>
+                                <th>32,50</th>
+                                <th>37,90</th>
+                            </tr>
+                            <tr>
+                                <th>38.</th>
+                                <th>
+                                    <h4>Tropikalna</h4>
+                                </th>
+                                <th class="italic">Ser, sos pomidorowy, szynka, ananasy, brzoskwinia</th>
+                                <th>26,90</th>
+                                <th>31,90</th>
+                                <th>36,90</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-responsive">
+                        <h3>Dodatki do pizzy</h3>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <h4>Do wyboru:</h4>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="italic">
+                                    (szynka parmeńska, pomidor koktajlowy, małże, krewetki, ser, szynka, salami, bekon,
+                                    kiełbasa, mięso, papryka, tuńczyk, cebula, kebab, pieczarki, papryka, ananas,
+                                    pomidor,
+                                    kapusta pekińska, ogórek, oliwki, kukurydza, przyprawy, oscypek, rukola, ser: feta,
+                                    górski)
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table pizza-extras">
+                        <tbody>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Do pizzy małej</h4>
+                                </th>
+                                <th>2,50</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Do pizzy średniej</h4>
+                                </th>
+                                <th>3,00</th>
+                            </tr>
+                            <tr>
+                                <th>03.</h4>
+                                <th>
+                                    <h4>Do pizzy dużej</h4>
+                                </th>
+                                <th>4,00</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table pizza-sauces">
+                        <h3>Sosy do pizzy</h3>
+                        <tbody>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Pomidorowy</h4>
+                                </th>
+                                <th>2,00</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Meksykański</h4>
+                                </th>
+                                <th>2,00</th>
+                            </tr>
+                            <tr>
+                                <th>03.</th>
+                                <th>
+                                    <h4>Czosnkowyowy</h4>
+                                </th>
+                                <th>2,00</th>
+                            </tr>
+                            <tr>
+                                <th>04.</th>
+                                <th>
+                                    <h4>Sambal (ostry)</h4>
+                                </th>
+                                <th>2,50</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-responsive salads">
+                        <h3>SAŁATKI</h3>
+                        <tbody>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Grecka</h4>
+                                </th>
+                                <th class="italic">
+                                    (sałata lodowa, pomidor, ogórek, feta, oliwki, sos winegret lub czosnkowy)
+                                </th>
+                                <th>17,00</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Kebab</h4>
+                                </th>
+                                <th class="italic">
+                                    (sałata lodowa, kukurydza, pomidor, kurczak przyprawiony orientalnie, sos
+                                    winegret lub czosnkowy)
+                                </th>
+                                <th>17,00</th>
+                            </tr>
+                            <tr>
+                                <th>03.</th>
+                                <th>
+                                    <h4>Cezar</h4>
+                                </th>
+                                <th class="italic">
+                                    (mix sałat, pomidorki koktajlowe, kurczak grillowany, grzanki, sos vinegrete
+                                    lub czosnkowy)
+                                </th>
+                                <th>17,00</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-responsive main-meal">
+                        <h3>Zestawy obiadowe</h3>
+                        <tbody>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Gyros klasyczny</h4>
+                                </th>
+                                <th class="italic">
+                                    (opiekane mięso drobiowe orientalnie przyprawione, podawane z frytkami i
+                                    surówka oraz z sosami)
+                                </th>
+                                <th></th>
+                                <th> 18,00</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Spaghetti firmowe</h4>
+                                </th>
+                                <th class="italic">
+                                    (mięso mielone, papryka, sos pomidorowy, cebula, przyprawy kuchni włoskiej,
+                                    makaron)
+                                </th>
+                                <th></th>
+                                <th> 18,00</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-responsive fast-food">
+                        <h3>FAST FOOD</h3>
+                        <tbody>
+                            <tr>
+                                <th>01.</th>
+                                <th>
+                                    <h4>Frytki ok. 300g</h4>
+                                </th>
+                                <th></th>
+                                <th>8,00</th>
+                            </tr>
+                            <tr>
+                                <th>02.</th>
+                                <th>
+                                    <h4>Zapiekanka z pieca ok. 50cm</h4>
+                                </th>
+                                <th class="italic">(pieczarki, cebula, sos pomidorowy, ketchup)</th>
+                                <th>9,50</th>
+                            </tr>
+                            <tr>
+                                <th>03.</th>
+                                <th>
+                                    <h4>Zapiekanka z pieca ok. 50cm</h4>
+                                </th>
+                                <th class="italic">(szynka, pieczarki, cebula, sos pomidorowy, ketchup)</th>
+                                <th>10,50</th>
+                            </tr>
+                            <tr>
+                                <th>04.</th>
+                                <th>
+                                    <h4>Zapiekanka z pieca ok. 50cm</h4>
+                                </th>
+                                <th class="italic">
+                                    (pieczarki, cebula, sos pomidorowy, ketchup, mięso z kurczaka orientalnie
+                                    przyprawionego)
+                                </th>
+                                <th>12,50</th>
+                            </tr>
+                            <tr>
+                                <th>05.</th>
+                                <th>
+                                    <h4>Burger polski</h4>
+                                </th>
+                                <th class="italic">(kotlet mielony, warzywa, sosy)</th>
+                                <th>18,00</th>
+                            </tr>
+                            <tr>
+                                <th>06.</th>
+                                <th>
+                                    <h4>Cheeseburger polski</h4>
+                                </th>
+                                <th class="italic">(kotlet mielony, warzywa, ser, sosy)</th>
+                                <th>19,00</th>
+                            </tr>
+                            <tr>
+                                <th>07.</th>
+                                <th>
+                                    <h4>Burger polski z frytkami + 3 sosy</h4>
+                                </th>
+                                <th class="italic">(ketchup, sos czosnkowy, musztarda miodowa)</th>
+                                <th>24,90</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <h2>Galeria:</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <a href="images/1.jpeg" data-lightbox="gallery"><img src="images/1small.jpeg" alt="2"></a>
+                        <a href="images/2.jpeg" data-lightbox="gallery"><img src="images/2small.jpeg" alt="2"></a>
+                        <a href="images/3.jpeg" data-lightbox="gallery"><img src="images/3small.jpeg" alt="2"></a>
+                        <a href="images/4.jpeg" data-lightbox="gallery"><img src="images/4small.jpeg" alt="2"></a>
+                        <a href="images/5.jpeg" data-lightbox="gallery"><img src="images/5small.jpeg" alt="2"></a>
+                        <a href="images/6.jpeg" data-lightbox="gallery"><img src="images/6small.jpeg" alt="2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <div id="location" class="bg-white">
+        <h2>Nasza lokalizacja:</h2>
+        <p class="text-center">Nasz lokal mieści się w Sobikowie przy Kościele Parafialnym, w odległości ok. 5 km od
+            Góry Kalwarii. Zapewniamy bezpłatna dostawę w rejonie do 5 km. Powyżej 5 km dopłata 1 zł za każdy
+            kilometr w jedną stronę. Rejon dostawy jest ograniczony a minimalna wartosć zamówienia to 19 zł.</p>
+        <div class="center-position">
+            <div style="text-align: center">
+                <a target="_blank" href="https://mapa.targeo.pl/pizzeria-omega,miejsce_20491467"
+                    title="Pizzeria Omega, Sobików 5, Sobików 05-530 - Pizzeria, godziny otwarcia, numer telefonu"><img
+                        class="img-fluid"
+                        src="https://k10.targeo.pl/i/cache/static/punkt/pizzeria/pizzeria-omega~20491467.png"
+                        alt="Pizzeria Omega, Sobików 5, Sobików 05-530 - Pizzeria, godziny otwarcia, numer telefonu"
+                        style="border:0" />
+                </a><br />
+                <a target="_blank" href="https://mapa.targeo.pl/pizzeria-omega,miejsce_20491578"
+                    title="TargeoMap">Zobacz większą mapę
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Go up -->
+    <section class="go-up bg-white">
+        <i class="fas fa-chevron-up"><br><span class="font">Powrót do menu</span></i>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white site-footer py-5 px-xl-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 footer-col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4 id="contact">KONTAKT:</h4>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone icon-dark-red" aria-hidden="true"></i>Zadzwoń:
+                            <a href="tel:227178503">22 717 85 03</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone icon-dark-red" aria-hidden="true"></i>Zadzwoń:
+                            <a href="tel:888539996">888 53 99 96</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 footer-col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4>GODZINY OTWARCIA:</h4>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock icon-dark-red" aria-hidden="true"></i> Poniedziałek - Piatek
+                            11:00-22:00
+                        </li>
+                        <li>
+                            <i class="fas fa-clock icon-dark-red" aria-hidden="true"></i> Sobota - Niedziela 12:00-22:00
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 footer-col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4>ADRES:</h4>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt icon-dark-red" aria-hidden="true"></i> Sobików 5 Góra
+                            Kalwaria
+                            05-530
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <section class="text-center copyright">
+        &copy; Copyright 2020 Pizzeria Omega Sobików Wszelkie prawa zastrzeżone
+        <span class="d-block copyright-designed">Designed by Agnieszka Fila</span>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="vendor/lightbox-plus-jquery.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
